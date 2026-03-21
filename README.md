@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# TP React - JSX, HOC, Render Props et Tests
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Auteur : Malak Nait Haddou**
 
-## Available Scripts
 
-In the project directory, you can run:
+## Captures d'écran :
 
-### `npm start`
+Page d'accueil
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191101" src="https://github.com/user-attachments/assets/5daec8e8-6e98-4170-96db-9faba1206287" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+JSX Demo et HOC Demo
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191111" src="https://github.com/user-attachments/assets/7e8b2101-4005-4438-a570-823b14f2841a" />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Render Props Demo et Tests Demo
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191118" src="https://github.com/user-attachments/assets/0d99c40f-5e21-40b5-a363-8a6be8492a7a" />
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Interface complète
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191220" src="https://github.com/user-attachments/assets/db71d7e3-adf9-40e6-9e38-f96caee7220b" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Description
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ce projet a été réalisé dans le cadre d'un TP visant à maîtriser les concepts fondamentaux de React :
+- Compréhension de JSX et sa transformation en JavaScript
+- Création de composants réutilisables avec Higher-Order Components (HOC)
+- Implémentation du pattern Render Props
+- Écriture de tests unitaires et d'intégration avec Jest et React Testing Library
 
-### `npm run eject`
+## Fonctionnalités
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. JSX Demo
+Démonstration de la syntaxe JSX avec :
+- Affichage dynamique du nom "Malak Nait Haddou"
+- Champ de saisie avec valeur par défaut
+- Expression conditionnelle intégrée
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Higher-Order Component Demo
+- Composant `withLogging` qui ajoute des logs de cycle de vie (mount, unmount, render)
+- Application sur les composants `Greeting` et `Counter`
+- Valeurs initiales : compteur à 8
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Render Props Demo
+- Composant `DataLoader` utilisant le pattern Render Props
+- Gestion des états : chargement, succès, erreur
+- Affichage immédiat des données simulées sans état de chargement intermédiaire
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. Tests Demo
+- Composant `Greeting` avec tests unitaires
+- Composant `Counter` avec tests d'intégration et interactions utilisateur
+- Valeur initiale du compteur : 3
 
-## Learn More
+## Structure du projet
+src/
+├── App.js # Composant principal
+├── JSXDemo.js # Démonstration JSX
+├── withLogging.js # HOC pour le logging
+├── DataLoader.js # Composant avec Render Props
+├── Greeting.js # Composant d'affichage
+├── Greeting.test.js # Tests unitaires Greeting
+├── Counter.js # Composant compteur
+├── Counter.test.js # Tests d'intégration Counter
+└── ...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation et démarrage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Installer les dépendances :
+```bash
+npm install
 
-### Code Splitting
+Technologies utilisées
+React 18 - Bibliothèque UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create React App - Configuration du projet
 
-### Analyzing the Bundle Size
+Jest - Framework de test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+React Testing Library - Tests des composants
 
-### Making a Progressive Web App
+ESLint - Linting du code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Concepts abordés
+Concept	Implémentation
+JSX	Expressions JavaScript, attributs, enfants
+HOC	withLogging - ajout de fonctionnalités transverses
+Render Props	DataLoader - partage de logique asynchrone
+Tests unitaires	Vérification du rendu des composants
+Tests d'intégration	Interactions utilisateur (clics, saisies)
+Résultats attendus
+Affichage dynamique du nom dans JSX Demo
 
-### Advanced Configuration
+Logs dans la console pour les composants enveloppés par le HOC
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Données simulées affichées immédiatement dans Render Props Demo
 
-### Deployment
+Compteurs fonctionnels avec valeurs initiales : 8 (HOC) et 3 (Tests)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Tests passant avec succès
 
-### `npm run build` fails to minify
+Captures d'écran
+Page d'accueil
+Technologies utilisées
+React 18 - Bibliothèque UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Create React App - Configuration du projet
+
+Jest - Framework de test
+
+React Testing Library - Tests des composants
+
+ESLint - Linting du code
+
+Concepts abordés
+Concept	Implémentation
+JSX	Expressions JavaScript, attributs, enfants
+HOC	withLogging - ajout de fonctionnalités transverses
+Render Props	DataLoader - partage de logique asynchrone
+Tests unitaires	Vérification du rendu des composants
+Tests d'intégration	Interactions utilisateur (clics, saisies)
+Résultats attendus
+Affichage dynamique du nom dans JSX Demo
+
+Logs dans la console pour les composants enveloppés par le HOC
+
+Données simulées affichées immédiatement dans Render Props Demo
+
+Compteurs fonctionnels avec valeurs initiales : 8 (HOC) et 3 (Tests)
+
+Tests passant avec succès
+
+Auteur
+Malak Nait Haddou
+
+Projet réalisé dans le cadre de la formation React
+
+
+
