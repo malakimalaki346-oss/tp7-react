@@ -20,6 +20,28 @@ Render Props Demo et Tests Demo
 Interface complète
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191220" src="https://github.com/user-attachments/assets/db71d7e3-adf9-40e6-9e38-f96caee7220b" />
 
+
+## Résultats des tests
+
+### Tests unitaires et d'intégration
+
+Tous les tests ont été exécutés avec succès :
+
+<img width="799" height="824" alt="image" src="https://github.com/user-attachments/assets/dc5fd36f-e3fe-42ee-9605-307896683bbd" />
+
+<img width="676" height="889" alt="Capture d&#39;écran 2026-03-22 132109" src="https://github.com/user-attachments/assets/b8a248a1-f3b7-4092-89dd-2062ced384cf" />
+
+<img width="628" height="849" alt="Capture d&#39;écran 2026-03-22 132120" src="https://github.com/user-attachments/assets/a99418ab-e067-4acb-81ba-461021ac5bae" />
+
+<img width="707" height="830" alt="Capture d&#39;écran 2026-03-22 132130" src="https://github.com/user-attachments/assets/f823bd71-71c9-4850-9c24-b2a652c6ff23" />
+
+<img width="674" height="852" alt="Capture d&#39;écran 2026-03-22 132142" src="https://github.com/user-attachments/assets/28f170c7-6a7c-400a-a566-6b5d2d4033e3" />
+
+<img width="804" height="826" alt="image" src="https://github.com/user-attachments/assets/c37678ba-5ae0-4a0f-9835-232b49c12f78" />
+
+<img width="810" height="275" alt="image" src="https://github.com/user-attachments/assets/e59d94a8-5b40-47ee-8a5c-e31e56a1ccd1" />
+
+
 ## Description
 
 Ce projet a été réalisé dans le cadre d'un TP visant à maîtriser les concepts fondamentaux de React :
