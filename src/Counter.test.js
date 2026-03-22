@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import userEvent from '@testing-library/user-event';
 import Counter from './Counter';
 
 describe('Counter Component', () => {
@@ -41,13 +40,12 @@ describe('Counter Component', () => {
     expect(screen.getByText('Compteur: 10')).toBeInTheDocument();
   });
   
-  test('gère les interactions utilisateur avec userEvent', async () => {
-    const user = userEvent.setup();
+  test('gère les interactions utilisateur avec plusieurs clics', () => {
     render(<Counter />);
-    
     const incrementButton = screen.getByText('+');
-    await user.click(incrementButton);
-    await user.click(incrementButton);
+    
+    fireEvent.click(incrementButton);
+    fireEvent.click(incrementButton);
     
     expect(screen.getByText('Compteur: 2')).toBeInTheDocument();
   });
