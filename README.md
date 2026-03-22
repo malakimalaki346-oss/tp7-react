@@ -10,16 +10,24 @@ Page d'accueil
 
 
 JSX Demo et HOC Demo
-<img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191111" src="https://github.com/user-attachments/assets/7e8b2101-4005-4438-a570-823b14f2841a" />
+<img width="1902" height="735" alt="Capture d&#39;écran 2026-03-22 141547" src="https://github.com/user-attachments/assets/850386a2-9f64-4963-87c3-d908710ea1d1" />
+
+Boutton avec HOC Logging 
+
+<img width="1184" height="460" alt="Capture d&#39;écran 2026-03-22 141607" src="https://github.com/user-attachments/assets/d3b88aed-ab05-474e-85d8-36df4de04d89" />
+<img width="968" height="410" alt="Capture d&#39;écran 2026-03-22 141612" src="https://github.com/user-attachments/assets/7e3f3375-b33f-40d7-8332-6adee29d3fda" />
+<img width="857" height="420" alt="Capture d&#39;écran 2026-03-22 141621" src="https://github.com/user-attachments/assets/64f4cc90-c5bb-42f2-99a3-316370e371b1" />
 
 
 Render Props Demo et Tests Demo
-<img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191118" src="https://github.com/user-attachments/assets/0d99c40f-5e21-40b5-a363-8a6be8492a7a" />
 
+<img width="1899" height="660" alt="Capture d&#39;écran 2026-03-22 141635" src="https://github.com/user-attachments/assets/250f88d2-6ee0-4a71-be7f-9fe3e96417fc" />
 
 Interface complète
-<img width="1920" height="1080" alt="Capture d&#39;écran 2026-03-21 191220" src="https://github.com/user-attachments/assets/db71d7e3-adf9-40e6-9e38-f96caee7220b" />
 
+<img width="770" height="429" alt="Capture d&#39;écran 2026-03-22 141649" src="https://github.com/user-attachments/assets/151e1d65-89ca-4703-b3f5-9de5192fa185" />
+
+<img width="720" height="402" alt="Capture d&#39;écran 2026-03-22 141708" src="https://github.com/user-attachments/assets/b6648bac-0385-4295-b73d-c59392359e90" />
 
 ## Résultats des tests
 
