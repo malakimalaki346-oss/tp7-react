@@ -45,7 +45,7 @@ Tous les tests ont été exécutés avec succès :
 
 <img width="674" height="852" alt="Capture d&#39;écran 2026-03-22 132142" src="https://github.com/user-attachments/assets/28f170c7-6a7c-400a-a566-6b5d2d4033e3" />
 
-<img width="804" height="826" alt="image" src="https://github.com/user-attachments/assets/c37678ba-5ae0-4a0f-9835-232b49c12f78" />
+<img width="652" height="710" alt="image" src="https://github.com/user-attachments/assets/60b5b34d-95a2-42b1-8f45-c2850af7b260" />
 
 <img width="810" height="275" alt="image" src="https://github.com/user-attachments/assets/e59d94a8-5b40-47ee-8a5c-e31e56a1ccd1" />
 
