@@ -2,6 +2,37 @@
 
 **Auteur : Malak Nait Haddou**
 
+## Description
+
+Ce projet a été réalisé dans le cadre d'un TP visant à maîtriser les concepts fondamentaux de React :
+- Compréhension de JSX et sa transformation en JavaScript
+- Création de composants réutilisables avec Higher-Order Components (HOC)
+- Implémentation du pattern Render Props
+- Écriture de tests unitaires et d'intégration avec Jest et React Testing Library
+
+## Fonctionnalités
+
+### 1. JSX Demo
+Démonstration de la syntaxe JSX avec :
+- Affichage dynamique du nom "Malak Nait Haddou"
+- Champ de saisie avec valeur par défaut
+- Expression conditionnelle intégrée
+
+### 2. Higher-Order Component Demo
+- Composant `withLogging` qui ajoute des logs de cycle de vie (mount, unmount, render)
+- Application sur les composants `Greeting` et `Counter`
+- Valeurs initiales : compteur à 8
+
+### 3. Render Props Demo
+- Composant `DataLoader` utilisant le pattern Render Props
+- Gestion des états : chargement, succès, erreur
+- Affichage immédiat des données simulées sans état de chargement intermédiaire
+
+### 4. Tests Demo
+- Composant `Greeting` avec tests unitaires
+- Composant `Counter` avec tests d'intégration et interactions utilisateur
+- Valeur initiale du compteur : 3
+
 
 ## Captures d'écran :
 
@@ -50,36 +81,6 @@ Tous les tests ont été exécutés avec succès :
 <img width="810" height="275" alt="image" src="https://github.com/user-attachments/assets/e59d94a8-5b40-47ee-8a5c-e31e56a1ccd1" />
 
 
-## Description
-
-Ce projet a été réalisé dans le cadre d'un TP visant à maîtriser les concepts fondamentaux de React :
-- Compréhension de JSX et sa transformation en JavaScript
-- Création de composants réutilisables avec Higher-Order Components (HOC)
-- Implémentation du pattern Render Props
-- Écriture de tests unitaires et d'intégration avec Jest et React Testing Library
-
-## Fonctionnalités
-
-### 1. JSX Demo
-Démonstration de la syntaxe JSX avec :
-- Affichage dynamique du nom "Malak Nait Haddou"
-- Champ de saisie avec valeur par défaut
-- Expression conditionnelle intégrée
-
-### 2. Higher-Order Component Demo
-- Composant `withLogging` qui ajoute des logs de cycle de vie (mount, unmount, render)
-- Application sur les composants `Greeting` et `Counter`
-- Valeurs initiales : compteur à 8
-
-### 3. Render Props Demo
-- Composant `DataLoader` utilisant le pattern Render Props
-- Gestion des états : chargement, succès, erreur
-- Affichage immédiat des données simulées sans état de chargement intermédiaire
-
-### 4. Tests Demo
-- Composant `Greeting` avec tests unitaires
-- Composant `Counter` avec tests d'intégration et interactions utilisateur
-- Valeur initiale du compteur : 3
 
 ## Structure du projet
 src/
