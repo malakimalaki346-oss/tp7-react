@@ -7,8 +7,8 @@ function DataLoader({ render, url, simulateData }) {
   
   useEffect(() => {
     if (simulateData) {
-      setLoading(false);
       setData(simulateData);
+      setLoading(false);
       return;
     }
     
